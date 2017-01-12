@@ -4,7 +4,7 @@ function findWaldo(arr, found) {
     if (name === "Waldo") {
       found(name, i);   // execute callback
     }
-  })
+  });
 }
 
 function actionWhenFound(name, i) {
