@@ -7,10 +7,10 @@ var result = input.map(function(arr){
   //console.log(arr.x, arr.y)
   var x = Math.pow(arr.x, 2);
   var y = Math.pow(arr.y, 2);
-  var z = x + y
-  z = Math.sqrt(z)
-  console.log(z)
-  return z
+  var z = x + y;
+  z = Math.sqrt(z);
+  console.log(z);
+  return z;
 
 });
 
